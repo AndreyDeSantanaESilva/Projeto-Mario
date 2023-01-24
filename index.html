@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+    <head>
+        <meta charset="utf8"><!--Maior numero de caracteres-->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!--Configura a pagina para ser visivel em dispositvos diversos -->  
+        <link rel="shortcut icon" href="./scr/imagens/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https: //fonts.googleapis.com/css2?family= Poppins: wght @100;300;500 & display=swap" rel="stylesheet"><!--Usado para colocar a loguinha/selo na tela superior do site do lado do nome -->  
+        <link rel="stylesheet" href="./scr/css/reset.css"> <!-- Linkei o index com o CSS-->
+        <link rel="stylesheet" href="./scr/css/estilos.css">
+        <link rel="stylesheet" href="./scr/css/responsivo.css">
+      <title>Super Mario Bross - Filme</title>
+    </head>
+    <body>
+
+       <div class="fundo-video">
+        <video muted  class="video" autoplay> 
+            <source  src="./scr/video/video-mario.mp4" type="video/mp4"><!-- para videos -->
+        </video>
+       </div>
+       <header class="cabecalho">
+        <a>
+            <img class="logo" src="./scr/imagens/logo-chapeu-mario.png" alt="Logo chapeu Mario">
+
+        </a>
+       <nav>
+             <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+             </ul>
+       </nav>
+    </header>
+    <main class="container">
+        <div class="informacao">
+            <img class="imagem-titulo" src="./scr/imagens/titulo.png" alt="Imagem do título do filme">
+            <p class="descricao">Maria Fernanda é chata porque ela é chata, mas eu amo ela de paixão</p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+         <img class="mario" src="./scr/imagens/super-mario-chars.png">
+         <div class="modal"> 
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/I3LVnOJr9rA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+         </div>
+    </main>
+    <script src="./scr/js/index.js"></script>
+    </body>
+</html>
